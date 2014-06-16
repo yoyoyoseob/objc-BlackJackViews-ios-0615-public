@@ -55,6 +55,20 @@ BlackJack With Views
 
   For testing, we'll be using accessibility labels to ensure that the necessary UI Elements are on screen. You can configure accessiblity labels either on the storyboard or in code.  Make sure your accessiblity labels are configured to exactly these strings for your labels and buttons: 
 
+  ```objc
+    self.card1.accessibilityLabel = @"card1";
+    self.card2.accessibilityLabel = @"card2";
+    self.card3.accessibilityLabel = @"card3";
+    self.card4.accessibilityLabel = @"card4";
+    self.card5.accessibilityLabel = @"card5";
+
+    self.hitButton.accessibilityLabel = @"hitButton";
+    self.dealButton.accessibilityLabel = @"dealButton";
+    self.scoreLabel.accessibilityLabel = @"scoreLabel";
+    self.resultLabel.accessibilityLabel = @"resultLabel"; 
+
+  ```
+
   
   ## UIViewController Subclass 
 
