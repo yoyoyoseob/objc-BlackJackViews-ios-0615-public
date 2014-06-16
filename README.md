@@ -22,8 +22,10 @@ BlackJack With Views
   - Select iPhone for Device Family 
   - And Save your storyboard with the default name into your projects directory 
   - From the Project Navigator's main interface select your storyboard.  
-  - Let's add our first view to the storyboard.  From the Utilities navigator, in the Object Library, -lect `View Controller` and drag the View Controller to the Storyboard. 
+  - Let's add our first view to the storyboard.  From the Utilities navigator, in the Object Library, select `View Controller` and drag the View Controller to the Storyboard. 
   - Your View Controller will automatically be configured as the initial view controller for your project. 
+  
+
   - You probably have some code similar to the following in your AppDelegate's didFinishLaunchingWithOptions: method. 
 
   ```objc
@@ -48,6 +50,12 @@ BlackJack With Views
   - Next create a label for score 
   -  Create one last label that tells the user if they got a blackjack or if they busted
 
+
+  ## Accessibility Labels 
+
+  For testing, we'll be using accessibility labels to ensure that the necessary UI Elements are on screen. You can configure accessiblity labels either on the storyboard or in code.  Make sure your accessiblity labels are configured to exactly these strings for your labels and buttons: 
+
+  
   ## UIViewController Subclass 
 
   **We've created our UI, but right now we don't have a way to interact with it in code.  We connect our storyboards to code by creating a subclass of UIViewController and assigning that subclass to our storyboard View Controller**
