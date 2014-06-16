@@ -10,6 +10,7 @@
 		297FF2CCAF3C46F7B8CF451F /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E4329259594A78826919DC /* FISAppDelegate.m */; };
 		2CDF1C6FBB9A4950B2A027ED /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34F287E9ABEF41D3BD85D082 /* libPods-unit_tests.a */; };
 		4431566D194F443B002EE862 /* AppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4431566C194F443B002EE862 /* AppDelegateTests.m */; };
+		44A6AD86194F730300C0F7FD /* BlackjackGameViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6AD85194F730300C0F7FD /* BlackjackGameViewControllerTests.m */; };
 		66E60841BFAC4152B025B889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A500DDDF79D42A6AB790B43 /* Foundation.framework */; };
 		CB9A059AEB7C42AF83889669 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B82398F8796741819AC8D0C9 /* main.m */; };
 		DBBF94F641A04BCD8DC32D5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC20C8F459AD474A9EBE3C51 /* Images.xcassets */; };
@@ -29,6 +30,7 @@
 		0A500DDDF79D42A6AB790B43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34F287E9ABEF41D3BD85D082 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4431566C194F443B002EE862 /* AppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateTests.m; sourceTree = "<group>"; };
+		44A6AD85194F730300C0F7FD /* BlackjackGameViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackjackGameViewControllerTests.m; sourceTree = "<group>"; };
 		53BF45D4889F463A8D12FC00 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		5BB122409BA9418B8E8ECCFE /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		6367C75D3F7640B89A258C6F /* Pods-unit_tests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.xcconfig"; path = "Pods/Pods-unit_tests.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		593B22BA93C144278027002A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				44A6AD85194F730300C0F7FD /* BlackjackGameViewControllerTests.m */,
 				4431566C194F443B002EE862 /* AppDelegateTests.m */,
 			);
 			path = Tests;
@@ -361,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4431566D194F443B002EE862 /* AppDelegateTests.m in Sources */,
+				44A6AD86194F730300C0F7FD /* BlackjackGameViewControllerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
