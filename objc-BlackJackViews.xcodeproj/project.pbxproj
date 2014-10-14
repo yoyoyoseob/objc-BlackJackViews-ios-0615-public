@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		297FF2CCAF3C46F7B8CF451F /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E4329259594A78826919DC /* FISAppDelegate.m */; };
-		310A1E0A19E6D09000721E00 /* BlackjackGameViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4431566C194F443B002EE862 /* BlackjackGameViewControllerTests.m */; };
 		44A6AD86194F730300C0F7FD /* BlackjackGameViewControllerSpecs.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A6AD85194F730300C0F7FD /* BlackjackGameViewControllerSpecs.m */; };
 		66E60841BFAC4152B025B889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A500DDDF79D42A6AB790B43 /* Foundation.framework */; };
 		9F779F6C782FE91B24AAAE04 /* libPods-UnitTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C1396FB811064C65E9DBDD /* libPods-UnitTests.a */; };
@@ -375,7 +374,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				310A1E0A19E6D09000721E00 /* BlackjackGameViewControllerTests.m in Sources */,
 				44A6AD86194F730300C0F7FD /* BlackjackGameViewControllerSpecs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
