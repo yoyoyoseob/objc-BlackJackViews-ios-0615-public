@@ -28,16 +28,15 @@
 /* Begin PBXFileReference section */
 		0A500DDDF79D42A6AB790B43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		34F287E9ABEF41D3BD85D082 /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4431566C194F443B002EE862 /* BlackjackGameViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackjackGameViewControllerTests.m; sourceTree = "<group>"; };
 		44A6AD85194F730300C0F7FD /* BlackjackGameViewControllerSpecs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlackjackGameViewControllerSpecs.m; sourceTree = "<group>"; };
-		53BF45D4889F463A8D12FC00 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
+		53BF45D4889F463A8D12FC00 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FISAppDelegate.h; path = Classes/FISAppDelegate.h; sourceTree = "<group>"; };
 		5BB122409BA9418B8E8ECCFE /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
 		6E5E19F6190343BCF4711D29 /* Pods-UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.release.xcconfig"; sourceTree = "<group>"; };
 		8EDD7987A072414D9D68760F /* objc-BlackJackViews-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "objc-BlackJackViews-Info.plist"; sourceTree = "<group>"; };
 		AB64737E09FA17E51F527B8B /* Pods-UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnitTests/Pods-UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B82398F8796741819AC8D0C9 /* main.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C29F2355F90A4B1BBE3876F2 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
-		C9E4329259594A78826919DC /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
+		C9E4329259594A78826919DC /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FISAppDelegate.m; path = Classes/FISAppDelegate.m; sourceTree = "<group>"; };
 		D1C1396FB811064C65E9DBDD /* libPods-UnitTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UnitTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC20C8F459AD474A9EBE3C51 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F25D9768C73E4EFFA2ED8ED7 /* objc-BlackJackViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "objc-BlackJackViews.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,13 +104,6 @@
 			path = UnitTests;
 			sourceTree = "<group>";
 		};
-		44680CDD0A664C629F2BE4F0 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
 		4BA488E83DE14D13BFAC7A10 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,30 +117,16 @@
 		593B22BA93C144278027002A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4431566C194F443B002EE862 /* BlackjackGameViewControllerTests.m */,
 				44A6AD85194F730300C0F7FD /* BlackjackGameViewControllerSpecs.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
 		};
-		5B84AA05F27B40BF8E254122 /* Classes */ = {
+		65A532317B004F4A8EBDC188 /* objc-BlackJackViews */ = {
 			isa = PBXGroup;
 			children = (
 				53BF45D4889F463A8D12FC00 /* FISAppDelegate.h */,
 				C9E4329259594A78826919DC /* FISAppDelegate.m */,
-				C7ABDE67E0CC4E1B90699388 /* Models */,
-				7E71E2BB0B524FEAB6FFBEC0 /* Views */,
-				44680CDD0A664C629F2BE4F0 /* Controllers */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		65A532317B004F4A8EBDC188 /* objc-BlackJackViews */ = {
-			isa = PBXGroup;
-			children = (
-				84C96DB629C746169511FE04 /* Categories */,
-				5B84AA05F27B40BF8E254122 /* Classes */,
-				865B2FDBE601436EB2435FCC /* Constants */,
 				ECA902B43D2446FA9645935D /* Resources */,
 			);
 			path = "objc-BlackJackViews";
@@ -182,34 +160,6 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		7E71E2BB0B524FEAB6FFBEC0 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		8335424E56174E4CBD11B1FF /* Nibs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Nibs;
-			sourceTree = "<group>";
-		};
-		84C96DB629C746169511FE04 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		865B2FDBE601436EB2435FCC /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Constants;
-			sourceTree = "<group>";
-		};
 		A4B97473E6334E39BD5C1500 /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
@@ -217,19 +167,11 @@
 			path = Storyboards;
 			sourceTree = "<group>";
 		};
-		C7ABDE67E0CC4E1B90699388 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		ECA902B43D2446FA9645935D /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				DC20C8F459AD474A9EBE3C51 /* Images.xcassets */,
 				A4B97473E6334E39BD5C1500 /* Storyboards */,
-				8335424E56174E4CBD11B1FF /* Nibs */,
 				774002FF44494999A9FB6467 /* Other-Sources */,
 			);
 			path = Resources;

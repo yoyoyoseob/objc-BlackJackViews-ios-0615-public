@@ -14,6 +14,14 @@ BlackJack With Views
 
 **BlackJack isn't very fun with NSLogging.  Let's add a view so someone can actually play our blackjack game on an iPhone. We'll think about which elements are necessary in our view to play a game of blackjack.**  
 
+## The Models
+
+Only do these if you are feeling confident! feel free to do everything in the `UIViewController` and then refactor things out.
+
+  * Make an `FISPlayCard` object, add the properties you think are appropriate.
+  * Make an `FISPlayingCard` object that manges a deck of many playing cards.
+  * Make a `FISBlackjackGame` object that [manages a Black Jack game](http://wizardofodds.com/games/blackjack/basics/#toc-Rules). Make this do what you need for a blackJack game. You probable want a `hit` method, a stay method, a current hand value method, etc...
+
 ## Storyboard
 
 **First we need to add a storyboard to our project.  The storyboard gives us a place to configure the user interface of our app.  Add a storyboard to your project and make sure it's setup as the default storyboard.**  
